@@ -1,0 +1,38 @@
+{
+  "name": "weatherapp",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-navigation/native": "^7.1.9",
+    "axios": "^1.9.0",
+    "expo": "~53.0.9",
+    "expo-status-bar": "~2.2.3",
+    "lodash.debounce": "^4.0.8",
+    "nativewind": "^4.1.23",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-heroicons": "^4.0.0",
+    "react-native-progress": "^5.0.1",
+    "react-native-reanimated": "^3.17.5",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "^4.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-class-properties": "^7.27.1",
+    "@react-native/babel-preset": "^0.79.2",
+    "metro-react-native-babel-preset": "^0.77.0"
+  },
+  "private": true
+}
