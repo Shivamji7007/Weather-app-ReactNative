@@ -51,8 +51,8 @@ Copy
 Edit
 WeatherApp/
 │
-├── App.js               # Main app file (logic and UI)
-├── styles.js            # Styling separated for better maintainability
+├── App.js               # App.js initializes the app by wrapping the main HomeScreen component inside a gesture handler container to enable touch gestures.
+├── HomeScreen.js           # Main app file (logic and UI)
 ├── assets/              # Images and icons
 ├── screens/             # If you extend app with multiple screens
 ├── package.json         # Project dependencies
